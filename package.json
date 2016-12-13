@@ -1,0 +1,31 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "node webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bharatreddy@bitbucket.org/iotadv/node_server.git"
+  },
+  "keywords": [
+    "webserver",
+    "node"
+  ],
+  "author": "Bharat Kunduri",
+  "license": "ISC",
+  "homepage": "https://bharatreddy@bitbucket.org/iotadv/node_server.git#readme",
+  "dependencies": {
+    "avsc": "^4.1.4",
+    "cluster": "^0.7.7",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "kafka-node": "^0.3.3",
+    "log4js": "^0.6.37",
+    "os": "^0.1.1",
+    "request": "^2.72.0",
+    "shortid": "^2.2.6"
+  }
+}
